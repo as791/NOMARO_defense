@@ -1,3 +1,4 @@
+% Copyright  (C) 2021, Aryaman Sinha
 function [img_rec] = reconstruct(img_set)
   
     I_ref = reshape(img_set(1,:,:,:),[size(img_set,2),size(img_set,3),size(img_set,4)]);
