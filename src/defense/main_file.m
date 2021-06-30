@@ -1,3 +1,4 @@
+# Copyright (C) 2021, Aryaman Sinha
 clc;
 clear;
 close all;
