@@ -1,3 +1,4 @@
+# Copyright (C) 2021, Aryaman Sinha
 # -*- coding: utf-8 -*-
 """make_copies.ipynb
 
