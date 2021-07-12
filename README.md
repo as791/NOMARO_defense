@@ -11,5 +11,4 @@
  - TensorFlow 2.x
  - MATLAB 2021a 
 
-## Run defense
 
