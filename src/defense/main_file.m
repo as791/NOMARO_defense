@@ -8,9 +8,6 @@ n = 1;
 % net = vgg16;
 % net = inceptionv3;
 net = resnet101;
-sigma = 0.02;  
-std = sqrt(3);
-addpath('bm3d');
 %% read dir and extract filenames of the data 
 adv_copies_dir = '../test_bed/multi_adv_database/cw_attack/adv/resnet/cw_l2/';
 orig_copies_dir = '../test_bed/multi_adv_database/cw_attack/orig/resnet/';
@@ -90,11 +87,8 @@ for i=1:num
             copy_img = double(load(strcat(adv_copies_dir,file)).multi)*255;
             img_set(j+1,:,:,:)=copy_img;
         end
+	
         img = reconstruct(img_set);
-		
-		% applying image denoising methods
-        img = wavelet_denoising(img,sigma);  
-%         img = CBM3D(img,std);
 
         if classify(net,img) == classify(net,orig_img)
             cnt = cnt+1;
@@ -123,10 +117,6 @@ for i=1:num
         img_set(j+1,:,:,:)=copy_img;
     end
     img = reconstruct(img_set);
-	
-	% applying image denoising methods
-    img = wavelet_denoising(img,sigma);
-%     img = CBM3D(img,std);
 
     PSNR = psnr(img,orig_img,255);
     
