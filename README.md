@@ -18,9 +18,13 @@ In this work, a non-orthogonal multiple access (NOMA)-inspired defense method is
 
 ## Results
 
-<img width="450" alt="Screenshot 2021-12-21 at 21 04 53" src="https://user-images.githubusercontent.com/40312186/146956932-9f45daf4-3493-441e-9281-d7ade5c3012c.png"> <img width="450" alt="Screenshot 2021-12-21 at 21 06 02" src="https://user-images.githubusercontent.com/40312186/146956912-75a61e35-eabd-437f-b002-4d2f1a345122.png">
+<p align="center">
+<img width="450" alt="Screenshot 2021-12-21 at 21 04 53" src="https://user-images.githubusercontent.com/40312186/146956932-9f45daf4-3493-441e-9281-d7ade5c3012c.png">
+</p>
 
-<img width="450" alt="Screenshot 2021-12-21 at 21 05 26" src="https://user-images.githubusercontent.com/40312186/146956923-090f66a3-21dc-47ba-a261-12a45a9c3961.png">
+<p align="center"> <img width="450" alt="Screenshot 2021-12-21 at 21 06 02" src="https://user-images.githubusercontent.com/40312186/146956912-75a61e35-eabd-437f-b002-4d2f1a345122.png"></p>
+
+<p align="center"><img width="450" alt="Screenshot 2021-12-21 at 21 05 26" src="https://user-images.githubusercontent.com/40312186/146956923-090f66a3-21dc-47ba-a261-12a45a9c3961.png"></p>
 
 ## Contact
-Do you have any problem or doubts contact to [Aryaman Sinha](https://github.com/as791/)
+Do you have any problem or doubts please raise the issue or directly contact to [Aryaman Sinha](https://github.com/as791/)
