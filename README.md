@@ -28,3 +28,16 @@ In this work, a non-orthogonal multiple access (NOMA)-inspired defense method is
 
 ## Contact
 Do you have any problem or doubts please raise the issue or directly contact to [Aryaman Sinha](https://github.com/as791/)
+
+## Citation
+```
+@ARTICLE{9650591,  
+author={Sinha, Aryaman and Dash, Soumya P. and Puhan, Niladri B.},  
+journal={IEEE Sensors Letters}, 
+title={NOMARO: Defending Against Adversarial Attacks by NOMA-Inspired Reconstruction Operation}, 
+year={2022},  
+volume={6}, 
+number={1}, 
+pages={1-4},  
+doi={10.1109/LSENS.2021.3135433}}
+```
